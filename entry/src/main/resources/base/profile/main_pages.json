@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/EditPage",
+    "pages/Login",
+    "pages/Detail",
+    "pages/TwoAbilityPage"
+  ]
+}

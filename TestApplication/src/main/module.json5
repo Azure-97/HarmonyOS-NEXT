@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "TestApplication",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "TestApplicationAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "TestApplicationAbility",
+        "srcEntry": "./ets/testapplicationability/TestApplicationAbility.ets",
+        "description": "$string:TestApplicationAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:TestApplicationAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
